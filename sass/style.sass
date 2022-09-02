@@ -4,6 +4,14 @@
 @import normalize_scss
 @import reset_scss
 
+@font-face
+  font-family: Montserrat-regular
+  src: url("../fonts/Montserrat-Regular.ttf")
+
+@font-face
+  font-family: Montserrat-bold
+  src: url("../fonts/Montserrat-SemiBold.ttf")
+
 $color-blue: #1B78FF
 $color-orange: #F96730
 $color-gray: #D9D9D9
@@ -50,6 +58,7 @@ $color-gray: #D9D9D9
     &:last-child
       margin-right: 0
     a
+      font-family: Montserrat-bold, serif
       text-decoration: none
       color: black
 
@@ -105,6 +114,7 @@ $color-gray: #D9D9D9
   &_title
     margin-bottom: 10px
   &_text
+    font-family: Montserrat-bold, serif
     font-size: 16px
     padding-right: 70px
     margin-bottom: 22px
@@ -138,6 +148,7 @@ $color-gray: #D9D9D9
 .title
   font-size: 72px
   position: relative
+  font-family: Montserrat-bold, serif
   &_hr
     width: 50px
     position: absolute
@@ -149,6 +160,7 @@ $color-gray: #D9D9D9
 .buttons
   display: inline-flex
   &_main-btn
+    font-family: Montserrat-bold, serif
     font-size: 18px
     color: #ffffff
     width: 200px
@@ -159,6 +171,7 @@ $color-gray: #D9D9D9
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     margin-right: 30px
   &_icon-btn
+    font-family: Montserrat-bold, serif
     display: inline-flex
     align-items: center
     img
@@ -215,6 +228,14 @@ $color-gray: #D9D9D9
     transform: rotate(100.78deg)
     z-index: -1
 
+.cards-item_text
+  font-family: Montserrat-bold, serif
+
+.cards-item_orange_text
+  font-family: Montserrat-bold, serif
+
+
+
 .ellipse_subtract_white
   width: 129.33px
   height: 129.33px
@@ -267,8 +288,10 @@ $color-gray: #D9D9D9
     width: 80px
   &_text
     font-size: 18px
+    font-family: Montserrat-regular, serif
     span
       font-size: 36px
+      font-family: Montserrat-bold, serif
 
 .third-section
   padding-top: 50px
@@ -289,6 +312,7 @@ $color-gray: #D9D9D9
   &_title-two
     margin-bottom: 20px
   &_text
+    font-family: Montserrat-regular, serif
     margin-bottom: 35px
     font-size: 18px
   &_ellipse-one
