@@ -559,7 +559,7 @@ table {
   background-color: #1B78FF;
   -webkit-transform: rotate(-68.13deg);
           transform: rotate(-68.13deg);
-  z-index: 3;
+  z-index: 2;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\0000382}}
 .left-wrapper_rectangle-orange {
@@ -589,7 +589,7 @@ table {
   border-radius: 100px;
   -webkit-transform: rotate(-35.6deg);
           transform: rotate(-35.6deg);
-  z-index: 2;
+  z-index: 3;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003105}}
@@ -758,33 +758,39 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003203}}
 .second-section {
   min-height: 700px;
+  overflow: hidden;
   padding-top: 51px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003207}}
 .second-section_container {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003209}}
 .second-section_title {
   margin-bottom: 18px;
   padding-left: 52px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003212}}
 .second-section_cards-box {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003216}}
 .second-section_cards-item {
   margin-right: 30px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003219}}
 .second-section_cards-item:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003221}}
 .second-section_first-ellipse {
   position: absolute;
   top: 25px;
@@ -793,7 +799,7 @@ table {
           transform: rotate(87.74deg);
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003227}}
 .second-section_second-ellipse {
   position: absolute;
   top: 300px;
@@ -803,17 +809,17 @@ table {
   z-index: -1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003234}}
 .cards-item_text {
   font-family: Montserrat-bold, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003237}}
 .cards-item_orange_text {
   font-family: Montserrat-bold, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003242}}
 .ellipse_subtract_white {
   width: 129.33px;
   height: 129.33px;
@@ -821,7 +827,7 @@ table {
   border-radius: 150px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003248}}
 .icons-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -831,7 +837,7 @@ table {
           justify-content: space-evenly;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003252}}
 .cards-item {
   position: relative;
   width: 360px;
@@ -845,11 +851,11 @@ table {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003260}}
 .cards-item_img {
   height: 335px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003262}}
 .cards-item_text {
   width: 275px;
   font-size: 36px;
@@ -861,11 +867,11 @@ table {
   right: -50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003271}}
 .cards-item_orange {
   background-color: #F96730;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003273}}
 .cards-item_orange_text {
   color: white;
   width: 275px;
@@ -878,12 +884,12 @@ table {
   right: -50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003283}}
 .cards-item_blue {
   background-color: #1B78FF;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003286}}
 .icons-item {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -892,23 +898,23 @@ table {
       -ms-flex-align: center;
           align-items: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003289}}
 .icons-item_img {
   margin-right: 17px;
   width: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003292}}
 .icons-item_text {
   font-size: 18px;
   font-family: Montserrat-regular, serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003295}}
 .icons-item_text span {
   font-size: 36px;
   font-family: Montserrat-bold, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003299}}
 .third-section {
   padding-top: 50px;
   position: relative;
@@ -916,11 +922,11 @@ table {
   background-color: #C5C5C5;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003305}}
 .third-section_title-one {
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003307}}
 .third-section_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -937,67 +943,198 @@ table {
           justify-content: space-between;
   padding-left: 130px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003313}}
 .third-section_right-wrapper {
   max-width: 480px;
+  z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003316}}
 .third-section_title-two {
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003318}}
 .third-section_text {
   font-family: Montserrat-regular, serif;
   margin-bottom: 35px;
   font-size: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003322}}
 .third-section_ellipse-one {
   position: absolute;
   top: 95px;
   right: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003327}}
 .third-section_ellipse-two {
   position: absolute;
   right: 930px;
   top: 185px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003331}}
 .third-section_ellipse-three {
   position: absolute;
-  right: -357px;
-  top: -125px;
+  right: 0;
+  top: -75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003339}}
 .title_hr-top {
   bottom: 72px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003342}}
 .footer {
   min-height: 280px;
   position: relative;
   background-color: #ffffff;
   padding: 35px 0 35px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003347}}
 .footer_img {
   position: absolute;
   top: -160px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003350}}
 .footer_title {
   position: absolute;
   right: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003353}}
 .footer_title_text {
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003356}}
 .title_hr-down {
   bottom: 73px;
+}
+
+@media (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003360}}
+  .container {
+    width: 960px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003362}}
+  .main-section {
+    min-height: 751px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003364}}
+  .main-section_second-ellipse {
+    top: 552px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003367}}
+  .left-wrapper_img {
+    width: 750px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003369}}
+  .left-wrapper_rectangle-blue {
+    width: 535px;
+    height: 215px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003372}}
+  .left-wrapper_rectangle-orange {
+    width: 570px;
+    height: 205px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003375}}
+  .left-wrapper_rectangle-gray {
+    width: 520px;
+    height: 210px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003378}}
+  .second-section {
+    min-height: 630px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003380}}
+  .second-section_cards-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003383}}
+  .second-section_second-ellipse {
+    top: 240px;
+    right: 830px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003386}}
+  .cards-item {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003390}}
+  .cards-item_img {
+    height: 270px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003392}}
+  .cards-item_text {
+    font-size: 30px;
+    top: 120px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003395}}
+  .cards-item .icons-item_img {
+    margin-right: 10px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003398}}
+  .third-section_container {
+    padding-left: 40px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003400}}
+  .third-section_right-wrapper {
+    max-width: 450px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003402}}
+  .third-section_ellipse-one {
+    top: 127px;
+    right: 655px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003405}}
+  .third-section_ellipse-two {
+    right: 735px;
+    top: 214px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003409}}
+  .footer_img {
+    top: -112px;
+    right: 625px;
+  }
+}
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003416}}
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003420}}
+  .container {
+    width: 540px;
+  }
+}
+@media (max-width: 575px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/nikit\/OneDrive\/\%D0\%A0\%D0\%B0\%D0\%B1\%D0\%BE\%D1\%87\%D0\%B8\%D0\%B9\%20\%D1\%81\%D1\%82\%D0\%BE\%D0\%BB\/big-project_2\/sass\/style\.sass}line{font-family:\00003424}}
+  .container {
+    width: 100%;
+  }
 }
