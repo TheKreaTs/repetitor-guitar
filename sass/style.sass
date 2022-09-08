@@ -108,7 +108,7 @@ $color-gray: #D9D9D9
   position: absolute
   top: 150px
   right: 5px
-  z-index: 1
+  z-index: 5
   &_icon-box
     padding-left: 3px
   &_title
@@ -330,8 +330,13 @@ $color-gray: #D9D9D9
     top: 185px
   &_ellipse-three
     position: absolute
-    right: 0
+    right: -80px
     top: -75px
+    width: 258.64px
+    height: 258.64px
+    background: linear-gradient(139.04deg, rgba(255, 71, 2, 0.5) 14.48%, rgba(0, 104, 255, 0.5) 50.03%, rgba(27, 23, 22, 0.5) 86.32%)
+    transform: rotate(-133.35deg)
+    border-radius: 150px
     display: flex
     justify-content: center
     align-items: center
@@ -397,7 +402,7 @@ $color-gray: #D9D9D9
   .third-section
     &_container
       padding-left: 40px
-    &_right-wrapper
+    &_right-wrapper-two
       max-width: 450px
     &_ellipse-one
       top: 127px
@@ -408,13 +413,133 @@ $color-gray: #D9D9D9
   .footer
     &_img
       top: -112px
-      right: 625px
-
-
+      right: 660px
+    &_title
+      right: 0
 
 @media ( max-width: 991px)
   .container
     width: 720px
+  .main-section
+    min-height: 630px
+    &_logo
+      width: 142px
+    &_first-ellipse
+      width: 165px
+      height: 165px
+      top: 115px
+      right: 31px
+    &_second-ellipse
+      width: 230px
+      height: 230px
+      top: 466px
+  .title
+    font-size: 54px
+    &_hr
+      width: 41px
+  .ellipse_subtract_two
+    width: 148px
+    height: 148px
+  .left-wrapper
+    &_img
+      width: 600px
+    &_rectangle-blue
+      width: 416px
+      height: 189px
+      top: 131px
+      left: -29px
+    &_rectangle-orange
+      width: 447px
+      height: 176px
+      left: -20px
+      top: 152px
+    &_rectangle-gray
+      width: 418px
+      height: 169px
+      left: 21px
+      top: 193px
+  .right-wrapper
+    width: 274px
+    top: 77px
+    &_text
+      font-size: 12px
+      margin-bottom: 11px
+    &_button
+      flex-direction: column-reverse
+  .buttons_icon-btn
+        margin-bottom: 11px
+  .subtract-main
+    width: 108px
+    height: 108px
+  .second-section
+    padding-top: 20px
+    min-height: 463px
+    &_cards-box
+      margin-bottom: 36px
+    &_first-ellipse
+      width: 165px
+      height: 165px
+      top: 21px
+      right: -52px
+    &_second-ellipse
+      width: 165px
+      height: 165px
+      top: 169px
+      right: 615px
+  .ellipse_subtract_white
+    width: 108px
+    height: 108px
+  .cards-item
+    width: 227px
+    height: 227px
+    &_img
+      height: 204px
+    &_text
+      right: -70px
+      top: 90px
+      font-size: 24px
+  .span-text
+    font-size: 27px
+  .icons-item_img
+    width: 64px
+  .icons-item_text
+    font-size: 13px
+  .third-section
+    padding-top: 30px
+    min-height: 560px
+    &_title-one
+      margin-right: 40px
+    &_title-two
+      margin-bottom: 26px
+      z-index: 3
+    &_text
+      margin-bottom: 20px
+      font-size: 16px
+      z-index: 3
+    &_ellipse-three
+      width: 230px
+      height: 230px
+    &_ellipse-one
+      top: 153px
+      right: 456px
+      width: 165px
+      height: 165px
+    &_ellipse-two
+      right: 533px
+      top: 214px
+      width: 165px
+      height: 165px
+  .title_hr-up
+    bottom: 55px
+  .footer
+    padding: 30px 0 0 0
+    min-height: 230px
+    &_title_text
+      margin-bottom: 20px
+    &_img
+      width: 400px
+      top: -69px
+      right: 510px
 
 @media ( max-width: 767px)
   .container
